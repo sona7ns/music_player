@@ -1,0 +1,23 @@
+
+/* khai báo biến define để sao gọi tên dùng cho nhanh */
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+/* seleter * apply tất cả css lên tất cả phần tử html */
+* {
+    /* có tính chất kế thừa thẻ cha, cứ ghi vào đây sau giải thích */
+    box-sizing: inherit;
+}
+
+html {
+    /* font-size 62.5% thì sai 1 rem = 10px */
+    font-size: 62.5%;
+    /* đặt chiều cao chữ cho all page, chữ nào chiều cao khác set sau */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /* box-sizing: để không bị độn chiều cao box khi padding */
+    box-sizing: border-box;
+}
